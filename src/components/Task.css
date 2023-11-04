@@ -1,0 +1,33 @@
+.task {
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  box-shadow: 3px 0px 6px 1px #aaa;
+  padding: 0.4rem;
+  padding-bottom: 0.8rem;
+}
+
+.task:hover {
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.task-button {
+  border-radius: 100%;
+  background-color: #333;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 3px 2px #999;
+}
+
+.task-image {
+  border-radius: 0.4rem;
+}
+
+.task-detail {
+  border-bottom: 1px solid #ddd;
+}
